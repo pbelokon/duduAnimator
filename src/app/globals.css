@@ -67,5 +67,15 @@ h1, h2, h3, h4, h5, h6 {
   --color-neutral-6: #999999;
   --color-neutral-7: #BABABA;
   --color-neutral-8: #DADADA;
+}
 
+/* Main => Creation Scene BackGround */
+
+body { 
+  width: 100vw;
+  height: 100vh;
+  background-image: 
+  repeating-linear-gradient(to right, transparent 0 50px, var(--color-neutral-7) 50px 51px),
+  repeating-linear-gradient(to bottom, transparent 0 50px, var(--color-neutral-7) 50px 51px);
+  position: relative;
 }
