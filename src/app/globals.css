@@ -45,3 +45,27 @@ h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+
+:root {
+  --color-red: #FB464C;
+  --color-green: #44CF6E;
+  --color-orange: #E9973F;
+  --color-yellow: #E0DE71;
+  --color-cyan: #53DFDD;
+  --color-blue: #027AFF;
+  --color-purple: #A882FF;
+  --color-pink: #FA99CD;
+
+  --color-neutral-0: #1E1E1E;
+  --color-neutral-1: #242424;
+  --color-neutral-2: #262626;
+  --color-neutral-25: #2A2A2A;
+  --color-neutral-3: #363636;
+  --color-neutral-35: #3F3F3F;
+  --color-neutral-4: #555555;
+  --color-neutral-5: #666666;
+  --color-neutral-6: #999999;
+  --color-neutral-7: #BABABA;
+  --color-neutral-8: #DADADA;
+
+}
